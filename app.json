@@ -7,9 +7,6 @@
   "image": "heroku/nodejs",
   "environments": {
     "review": {
-      "scripts": {
--       "postdeploy": "bin/postdeploy.sh"
-      },
       "env": {
         "APP_SETUPS_TEST": "test-secret"
       }
