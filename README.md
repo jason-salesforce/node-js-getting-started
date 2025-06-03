@@ -1,5 +1,7 @@
 # node-js-getting-started
 
+foo
+
 A barebones Node.js app using [Express](https://expressjs.com/).
 
 This application supports the tutorials for both the [Cedar and Fir generations](https://devcenter.heroku.com/articles/generations) of the Heroku platform. You can check them out here:
@@ -26,8 +28,8 @@ Using resources for this example app counts towards your usage. [Delete your app
 
 ### Deploy on [Cedar][cedar]
 
-By default, apps use Eco dynos on [Cedar][cedar] if you are subscribed to Eco. Otherwise, it defaults to Basic dynos. The 
-Eco dynos plan is shared across all Eco dynos in your account and is recommended if you plan on deploying many small apps 
+By default, apps use Eco dynos on [Cedar][cedar] if you are subscribed to Eco. Otherwise, it defaults to Basic dynos. The
+Eco dynos plan is shared across all Eco dynos in your account and is recommended if you plan on deploying many small apps
 to Heroku. Learn more about our low-cost plans [here](https://blog.heroku.com/new-low-cost-plans).
 
 Eligible students can apply for platform credits through our new [Heroku for GitHub Students program](https://blog.heroku.com/github-student-developer-program).
@@ -40,7 +42,7 @@ $ heroku open
 
 ### Deploy on [Fir][fir]
 
-By default, apps on [Fir][fir] use 1X-Classic dynos. To create an app on [Fir][fir] you'll need to 
+By default, apps on [Fir][fir] use 1X-Classic dynos. To create an app on [Fir][fir] you'll need to
 [create a private space](https://devcenter.heroku.com/articles/working-with-private-spaces#create-a-private-space)
 first.
 
