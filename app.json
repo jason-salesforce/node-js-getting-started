@@ -4,13 +4,5 @@
   "repository": "https://github.com/heroku/node-js-getting-started",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
   "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs",
-  "addons": [
-    {
-      "plan": "heroku-postgresql:standard-0",
-      "options": {
-        "fork": "check-ci-staging::DATABASE_URL"
-      }
-    }
-  ]
+  "image": "heroku/nodejs"
 }
